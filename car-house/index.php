@@ -21,6 +21,7 @@ if ($data) {
     $lon = $location->longitude;
     $sun_info = date_sun_info(time(), $lat, $lon);
 }
+date_default_timezone_set("Asia/Dhaka");
 $time = date('M d, Y H:i A');
 
 $counter = 0;
